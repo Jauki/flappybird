@@ -1,0 +1,20 @@
+population_size: 200
+mutation_probability: 0.05
+mutation_standard_deviation: 0.3
+elitism: True
+
+stop_condition:
+  generations: .inf
+  score: .inf
+  time: .inf
+
+enable_acceleration: False
+save_best: True
+load_previous_best: False
+hardstuck_gen: 5
+
+level:
+  pipe_gap: 150         # The space between top and bottom pipes dont go below 150 it is too difficult and the game could generate impossible leveles
+  pipe_min_height: 60   # The minimum height of the top pipe -> good wood be above 50
+  pipe_max_height: 300  # The maximum height of the top pipe
+  pipe_speed: 3         # The speed at which pipes move to the left
