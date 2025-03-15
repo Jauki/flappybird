@@ -1,5 +1,5 @@
 # Assignment 2
-> 12410182
+
 > Julian Jauk
 
 ![screenshot](./screenshot.png)
